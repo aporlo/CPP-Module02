@@ -2,7 +2,6 @@
 # define FIXED_H
 
 #include <iostream>
-#include <string>
 
 class Fixed
 {
@@ -17,7 +16,7 @@ public:
 
 	Fixed & operator = ( Fixed const & ref);
 
-	int		getRawBits();
+	int		getRawBits( void ) const;
 	void	setRawBits( int const raw);
 };
 

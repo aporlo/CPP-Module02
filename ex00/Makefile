@@ -1,4 +1,4 @@
-NAME = orthodox
+NAME = fixed
 CXX = c++
 CPPFLAGS = -std=c++98 -Wall -Wextra -Werror
 
